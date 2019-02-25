@@ -4,7 +4,7 @@
 // addnews ready
 function findgem_getmoduleinfo(){
 	$info = array(
-		"name"=>"Знайти Рубін",
+		"name"=>"Знайдено Рубін",
 		"version"=>"1.1",
 		"author"=>"Eric Stevens",
 		"category"=>"Forest Specials",
@@ -15,7 +15,7 @@ function findgem_getmoduleinfo(){
 
 function findgem_install(){
 	module_addeventhook("forest", "return 100;");
-	module_addeventhook("travel", "return 20;");
+	module_addeventhook("travel", "return 10;");
 	return true;
 }
 
