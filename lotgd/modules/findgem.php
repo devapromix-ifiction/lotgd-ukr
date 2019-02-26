@@ -4,7 +4,7 @@
 // addnews ready
 function findgem_getmoduleinfo(){
 	$info = array(
-		"name"=>"Знайдено Рубін",
+		"name"=>"Знайдено Самоцвіт",
 		"version"=>"1.1",
 		"author"=>"Eric Stevens",
 		"category"=>"Forest Specials",
@@ -30,7 +30,7 @@ function findgem_dohook($hookname,$args){
 function findgem_runevent($type,$link)
 {
 	global $session;
-	output("`^Ви знайшли в багнюці великий `%рубін`^!`0");
+	output("`^Ви знайшли в багнюці великий `%самоцвіт`^!`0");
 	$session['user']['gems']++;
 	debuglog("found a gem in the dirt");
 }
